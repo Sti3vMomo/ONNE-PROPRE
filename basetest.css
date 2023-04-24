@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background: #141e30;
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
+  background: linear-gradient(to right, #243b55, #141e30);
+}
+
+.princ {
+  margin-right: 15%;
+  margin-left: 15%;
+  background-color: rgb(57, 62, 70);
+  border-radius: 39px 39px 0 0;
+  height: calc(100vh - 0px);
+  width: calc(100vw - 30%);
+}
+
+a , h1 {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.nav {
+  color: green;;
+  position: absolute;
+}
+
+.acceuil {
+  top: 0%;
+}
+
+#profil {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+

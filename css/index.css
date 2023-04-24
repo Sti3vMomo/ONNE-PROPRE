@@ -1,0 +1,50 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.grid video {
+  max-width: 80%;
+  border: 4px solid black;  
+  border-radius: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li::marker {
+  display: none;
+}
+
+.swap-element {
+  size: cover;
+}
+
+li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
