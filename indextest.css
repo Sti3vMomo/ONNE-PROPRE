@@ -1,0 +1,54 @@
+.grid {
+  display: grid;
+  grid-template-columns:repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 30px;
+  margin: 15px;
+}
+
+.grid-item {
+  border: 1px black solid; 
+  overflow: hidden;
+  display: grid;
+}
+
+img {
+  object-fit: cover;
+  grid-column: 1 / span 2;;
+}
+
+
+
+
+
+
+
+
+
+
+
+ul {
+  list-style-type: none;
+}
+
+li::marker {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
