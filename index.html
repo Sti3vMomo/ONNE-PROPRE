@@ -24,7 +24,6 @@
     <link rel="shortcut icon" href="./img/logo.png" />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/base.css" />
-    <script src="./js/175pourcent.js" defer></script>
     <script src="./js/page-de-connexion.js" defer></script>
     <script src="./js/cookies.js" defer></script>
     <script src="./js/index.js" defer></script>
@@ -33,36 +32,47 @@
   <body>
     <div class="princ">
       <header>
-        <nav id="haut-de-page">
-          <img class="logo" src="./img/logo.png" alt="Logo" />
-          <h1 class="nav">Acceuil</h1>
-          <a class="nav" href="./html/outil.html">Outil</a>
-          <a href="./html/page-de-connexion.html">
-            <i id="profil" class="fa-regular fa-user"></i>
-          </a>
-        </nav>
+        <nav class="navbar">
+          <div class="logo">
+            <video src="../video/logo.mp4" alt="Logo"></video>
+          </div>
+          <ul class="categories">
+            <li><a>Action</a></li>
+            <li><a>Aventure</a></li>
+            <li><a>Multi</a></li>
+            <li><a>FPS</a></li>
+            <li><a>Gta Rp</a></li>
+            <li><a>Action</a></li>
+            <li><a>Outil</a></li>
+            <li>
+              <a href="./html/page-de-connexion.html">
+                <i id="profil" class="fa-regular fa-user"></i>
+              </a>
+            </li>
+          </ul>
+      </nav>
       </header> 
       <main>
-        <nav>
-          <ul class="grid">
-            <li class="img-li">
+        <nav class="game">
+          <ul>
+            <li>
               <ahref="">
-                <video src="./video/flappy-bird.gif" muted></video>
+                <video src="./video/flappy-bird.gif" title="Flappy Bird" muted></video>
               </a>
             </li>
             <li>
               <a href="./html/snake.html">
-                <video src="./video/snake.gif" muted></video>
+                <video src="./video/snake.gif" title="Snake" muted></video>
               </a>
             </li>
             <li>
               <a href="">
-                <video src="./video/tetris.mp4" muted></video>
+                <video src="./video/tetris.gif" title="Tetris" muted></video>
               </a>
             </li>
             <li>
               <a href="">
-                <video src="./video/pfc.mp4" muted></video>
+                <video src="./video/pfc.gif" title="PFC" muted></video>
               </a>
             </li>
           </ul>
