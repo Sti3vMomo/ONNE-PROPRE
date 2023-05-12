@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../../js/game/snake.js"></script>
+    <link rel="stylesheet" href="../../css/game/snake.css" />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <div class="allways">
+      <div class="menu">
+        <div class="best-score">
+          <span>Score : 534</span>
+        </div>
+        <div class="choose-map">
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+        <div class="menu-option">
+          <div class="menu-options-titre">
+            <h1>Options :</h1>
+          </div>
+          <div class="difficulty">
+            <label for="difficulty-select">Difficulté :</label>
+            <select class="difficulty-select">
+              <option>Facile</option>
+              <option>Normal</option>
+              <option>Difficile</option>
+            </select>
+          </div>
+          <div class="food">
+            <label for="food-select">Nourriture :</label>
+            <select class="food-select">
+              <option>Pomme</option>
+              <option>Banane</option>
+              <option>Orange</option>
+            </select>
+          </div>
+          <div class="menu-option">
+            <div class="border-checkbox">
+              <label for="border-checkbox">Traverser les bordures :</label>
+              <input type="checkbox" class="border-checkbox"/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="game-board"></div>
+    </div>
+  </body>
+</html>
