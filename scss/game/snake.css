@@ -56,7 +56,8 @@
   translate: -50%, 50%;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .allways .menu .menu-options-titre h1 {
   font-size: 20px;
@@ -75,4 +76,4 @@
 }
 .allways .menu .difficulty select:focus, .allways .menu .difficulty input[type=checkbox]:focus, .allways .menu .food select:focus, .allways .menu .food input[type=checkbox]:focus, .allways .menu .border-checkbox select:focus, .allways .menu .border-checkbox input[type=checkbox]:focus {
   outline: none;
-}
+}/*# sourceMappingURL=snake.css.map */

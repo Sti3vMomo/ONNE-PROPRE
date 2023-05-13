@@ -4,8 +4,8 @@ ul {
 
 .grid-game {
   display: grid;
-  grid-template-columns: repeat(5, 1fr); /* Crée cinq colonnes égales */
-  gap: 30px; /* Espacement entre les éléments de la grille */
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
   margin: 30px;
 }
 
@@ -23,7 +23,7 @@ ul {
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Assure que la vidéo remplit entièrement la zone */
+  object-fit: cover;
 }
 
 
