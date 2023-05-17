@@ -25,32 +25,19 @@
     <title>Snake Game</title>
   </head>
   <body>
-    <div class="allways">
-      <div class="menu">
+    <main id="allways">
+      <canvas id="game"></canvas>
+      <div id="menu">
         <div class="top-menu">
           <a href="../../index.html">
             <button><i class="fa-solid fa-arrow-left"></i>Retour</button>
           </a>
           <span>Score : 534</span>
         </div>
-        <div class="choose-map">
-          <div class="map">
-            <img src="../../img/image1.jpg" alt="" />
-          </div>
-          <div class="map">
-            <img src="../../img/image1.jpg" alt="" />
-          </div>
-          <div class="map">
-            <img src="../../img/image1.jpg" alt="" />
-          </div>
-          <div class="map">
-            <img src="../../img/image1.jpg" alt="" />
-          </div>
+        <div class="menu-options-title">
+          <h1>Options :</h1>
         </div>
-          <div class="menu-options-titre">
-            <h1>Options :</h1>
-          </div>
-        <div class="menu-option">
+        <div class="menu-options">
           <div class="difficulty">
             <label for="difficulty-select">Difficulté :</label>
             <select class="difficulty-select">
@@ -67,18 +54,23 @@
               <option>Orange</option>
             </select>
           </div>
-          <div class="menu-option">
-            <div class="border-checkbox">
-              <label for="border-checkbox">Traverser les bordures :</label>
-              <input type="checkbox" class="border-checkbox"/>
-            </div>
+          <div id="bordures">
+            <label for="bordures">Bordures:</label>
+            <input type="color" class="bordures" />
+          </div>
+          <div id="ground">
+            <label for="ground">Terrain:</label>
+            <input type="color" class="ground" />
+          </div>
+          <div class="border-checkbox">
+            <label for="border-checkbox">Traverser les bordures :</label>
+            <input type="checkbox" class="border-checkbox" />
+          </div>
+          <div class="play">
+            <button>PLAY !</button>
           </div>
         </div>
-        <div class="play">
-          <button>PLAY !</button>
-        </div>
       </div>
-      <div class="game-board"></div>
-    </div>
+    </main>
   </body>
 </html>

@@ -1,161 +1,48 @@
-@import "../var" ;
+@import "../var";
 
 * {
-  padding: $default;
-  margin: $default;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
-.allways {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  height: 100vh;
-
-  .game-board {
-    background-color: $backgroud;
-  }
-  
-  .menu {
-    background-color: $backgroud;
-    border-right: 2px solid black;
-    padding: 10px;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    gap: $default ;
-
-    .top-menu {
-      display: flex;
-      justify-content: space-between;
-
-      button {
-        background-color: transparent;
-        border: none;
-        color: white;
-        font-size: 16px;
-        margin-right: 10px;
-        cursor: pointer;
-
-        i {
-          margin-right: 10px;
-        }
-
-      }
-
-      span {
-        color: white;
-      }
-
-    }
-
-    .choose-map {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
-      width: 25vw;
-      height: 175%;
-
-      .map {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-        }
-      }
-    }
-
-    .menu-options-titre {
-      h1 {
-        font-size: 20px;
-        margin-bottom: 10px;
-      }
-    }
-
-    .difficulty, .food, .border-checkbox {
-      margin-bottom: 10px;
-      
-      label {
-        font-size: 16px;
-      }
-      
-      select, input[type="checkbox"] {
-        background-color: transparent;
-        padding: 5px;
-        margin-top: 5px;
-        
-        &:focus {
-          outline: none;
-        }
-      }
-    }
-  }
+html, body {
+  font-size: 16px;
 }
 
+#allways {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
+#game {
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+}
 
+#menu {
+  position: absolute;
+  background-color: gray;
+  padding: 10px;
 
-
-
-
-
-
-
-
-
-
-
-// /* Styles pour le menu */
-// .menu {
-//   background-color: $backgroud;
-//   padding: 20px;
-  
-//   .top-menu {
-//     display: flex;
-//     align-items: center;
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
     
-//     button {
-//       background-color: transparent;
-//       border: none;
-//       color: red;
-//       font-size: 16px;
-//       margin-right: 10px;
-//       cursor: pointer;
-//     }
-//   }
-  
-//   .choose-map {
-//     img {
-//       width: 50px;
-//       height: 50px;
-//       margin-right: 10px;
-//     }
-//   }
-  
-//   .menu-options-titre {
-//     h1 {
-//       font-size: 20px;
-//       margin-bottom: 10px;
-//     }
-//   }
-  
-//   .difficulty, .food, .border-checkbox {
-//     margin-bottom: 10px;
-    
-//     label {
-//       font-size: 16px;
-//     }
-    
-//     select, input[type="checkbox"] {
-//       background-color: transparent;
-//       padding: 5px;
-//       margin-top: 5px;
-      
-//       &:focus {
-//         outline: none;
-//       }
-//     }
-//   }
-// }
+    button {
+      background-color: transparent;
+      border: none;
+      color: red;
+      font-size: 1rem;
+
+      i {
+        margin: $default 10px $default $default;
+      }
+    }
+  }
+
+
+}

@@ -10,24 +10,21 @@ body {
   overflow: hidden;
   background: #141e30;
   background: -webkit-linear-gradient(to right, #243b55, #141e30);
-  background: rgba(57, 62, 70, 1);
+  background: rgb(57, 62, 70);
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #888888 #f0f0f0;
 }
-
-body::-webkit-scrollbar {
+body ::-webkit-scrollbar {
   width: 8px;
   border-radius: 4px;
 }
-
-body::-webkit-scrollbar-track {
+body ::-webkit-scrollbar-track {
   background-color: rgb(15, 15, 15);
   border-radius: 4px;
 }
-
-body::-webkit-scrollbar-thumb {
-  background-color: rgb(255, 255, 255);
+body ::-webkit-scrollbar-thumb {
+  background-color: white;
   border-radius: 4px;
 }
 
@@ -37,32 +34,25 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   height: 50px;
   padding: 0 20px;
-  background-color: rgba(34, 40, 49, 1);
+  background-color: rgb(34, 40, 49);
   color: #fff;
 }
-
-.logo {
+.navbar .logo {
   width: 40px;
   height: 40px;
 }
-.logo video {
+.navbar .logo video {
   height: 40px;
   filter: none;
 }
-
-.categories {
+.navbar .categories {
   display: flex;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  list-style-type: none;
 }
-
-.categories li {
-  margin-left: 20px;
-}
-
-.categories a {
-  color: #fff;
+.navbar .categories a {
   text-decoration: none;
+  color: #fff;
   font-size: 18px;
+  margin-left: 20px;
 }

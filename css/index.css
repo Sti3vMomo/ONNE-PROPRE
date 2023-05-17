@@ -1,6 +1,3 @@
-ul {
-  list-style-type: none;
-}
 
 .grid-game {
   display: grid;
@@ -13,7 +10,7 @@ ul {
 .game {
   position: relative;
   width: 100%;
-  padding-bottom: 56.25%; /* Rapport d'aspect 16:9 pour une hauteur flexible */
+  padding-bottom: 56.25%; 
   overflow: hidden;
 }
 
