@@ -24,7 +24,7 @@ function create() {
   menuBackground.setDisplaySize(this.game.config.width, this.game.config.height);
   menu.add(menuBackground);
 
-  let scoreText = this.add.text(790, 5, "Score : " + score, { fontFamily: 'Arial', fontSize: 20, color: '#ffffff' }).setOrigin(1, 0);
+  let scoreText = this.add.text(1390, 7, "Score : " + score, { fontFamily: 'Arial', fontSize: 20, color: '#ffffff' }).setOrigin(1, 0);
   menu.add(scoreText);
 
   let optionsTitle = this.add.text(this.game.config.width / 2, 100, 'Options :', { fontFamily: 'Arial', fontSize: 24, color: '#ffffff' });
