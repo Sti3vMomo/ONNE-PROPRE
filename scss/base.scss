@@ -1,8 +1,27 @@
+@import "_var";
+
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  width: 5px;
+  border-radius: 4px;
+  background: $backgroud;
+}
+
+body::-webkit-scrollbar-thumb {
+  width: 5px;
+  border-radius: 4px;
+  background: gray;
 }
 
 body {
@@ -11,24 +30,7 @@ body {
   background: #141e30;
   background: -webkit-linear-gradient(to right, #243b55, #141e30);
   background: rgba(57, 62, 70, 1);
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: #888888 #f0f0f0;
-
-  ::-webkit-scrollbar {
-    width: 8px;
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-track {
-    background-color: rgb(15, 15, 15);
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background-color: white;
-    border-radius: 4px;
-  }
+  overflow-y: scroll;
 }
 
 .navbar {
