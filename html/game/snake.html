@@ -19,58 +19,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!--* Phaser (cdnjs) -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.60.0/phaser.min.js"
+      integrity="sha512-YQL0GVx/Too3vZjBl9plePRIYsRnd1s8N6QOvXPdZ+JMH2mtRTLQXGUDGjNW6zr1HUgcOIury67IvWe91oeEwQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- ! Biobiotheque -->
-    <script src="../../js/game/snake.js"></script>
+    <script src="../../js/game/snake/_var.js" defer></script>
+    <script src="../../js/game/snake/snake.js" defer></script>
+    <script src="../../js/game/snake/backgroundMusic.js" defer></script>
     <link rel="stylesheet" href="../../css/game/snake.css" />
     <title>Snake Game</title>
   </head>
   <body>
-    <main id="allways">
-      <canvas id="game"></canvas>
-      <div id="menu">
-        <div class="top-menu">
-          <a href="../../index.html">
-            <button><i class="fa-solid fa-arrow-left"></i>Retour</button>
-          </a>
-          <span>Score : 534</span>
-        </div>
-        <div class="menu-options-title">
-          <h1>Options :</h1>
-        </div>
-        <div class="menu-options">
-          <div class="difficulty">
-            <label for="difficulty-select">Difficulté :</label>
-            <select class="difficulty-select">
-              <option>Facile</option>
-              <option>Normal</option>
-              <option>Difficile</option>
-            </select>
-          </div>
-          <div class="food">
-            <label for="food-select">Nourriture :</label>
-            <select class="food-select">
-              <option>Pomme</option>
-              <option>Banane</option>
-              <option>Orange</option>
-            </select>
-          </div>
-          <div id="bordures">
-            <label for="bordures">Bordures:</label>
-            <input type="color" class="bordures" />
-          </div>
-          <div id="ground">
-            <label for="ground">Terrain:</label>
-            <input type="color" class="ground" />
-          </div>
-          <div class="border-checkbox">
-            <label for="border-checkbox">Traverser les bordures :</label>
-            <input type="checkbox" class="border-checkbox" />
-          </div>
-          <div class="play">
-            <button>PLAY !</button>
-          </div>
-        </div>
-      </div>
-    </main>
   </body>
 </html>
