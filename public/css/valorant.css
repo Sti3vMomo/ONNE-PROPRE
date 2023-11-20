@@ -1,3 +1,4 @@
+/* Variables pour la personnalisation */
 *,
 ::after,
 ::before {
@@ -12,15 +13,51 @@
   font-weight: normal;
   font-style: normal;
 }
-header nav img {
+img {
   width: 50px;
   height: 50px;
 }
-header nav #navbarVertical {
+
+#navbarVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 7.5vw;
+}
+#navbarVertical #logoValo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5vh;
+}
+#navbarVertical #valoDesign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  transform: rotate(-90deg);
+}
+#navbarVertical #tiret {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+#navbarVertical #website {
+  height: 30vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-header nav #navbarVertical #design .valoDesign {
+#navbarVertical #exit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5vh;
+}
+
+#design .valoDesign {
   font-family: valorantFont;
 }

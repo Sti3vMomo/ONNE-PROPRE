@@ -1,8 +1,10 @@
+@import "_var";
+
 *,
 ::after,
 ::before {
-  padding: 0;
-  margin: 0;
+  padding: $default;
+  margin: $default;
   box-sizing: border-box;
 }
 
@@ -13,23 +15,49 @@
   font-style: normal;
 }
 
-header {
-  nav {
-    img {
-      width: 50px;
-      height: 50px;
-    }
+img {
+  width: 50px;
+  height: 50px;
+}
 
-    #navbarVertical {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+#navbarVertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 7.5vw;
 
-      #design {
-        .valoDesign {
-          font-family: valorantFont;
-        }
-      }
-    }
+  #logoValo {
+    @include center;
+    height: 12.5vh;
+  }
+
+  #valoDesign {
+    @include center;
+    height: 10vh;
+    transform: rotate(-90deg);
+  }
+
+  #tiret {
+    @include center;
+    height: 10vh;
+  }
+  #website {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #exit {
+    @include center;
+    height: 12.5vh;
+  }
+}
+
+#design {
+  .valoDesign {
+    font-family: valorantFont;
   }
 }
