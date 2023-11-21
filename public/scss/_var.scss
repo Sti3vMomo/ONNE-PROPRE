@@ -8,3 +8,10 @@ $default : 0;
   justify-content: center;
   align-items: center;
 }
+
+@font-face {
+  font-family: "valorantFont";
+  src: url("../police/valorant-font.ttf");
+  font-weight: normal;
+  font-style: normal;
+}

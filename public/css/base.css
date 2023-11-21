@@ -1,4 +1,10 @@
 /* Variables pour la personnalisation */
+@font-face {
+  font-family: "valorantFont";
+  src: url("../police/valorant-font.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
