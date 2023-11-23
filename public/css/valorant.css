@@ -1,10 +1,4 @@
 /* Variables pour la personnalisation */
-@font-face {
-  font-family: "valorantFont";
-  src: url("../police/valorant-font.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
 *,
 ::after,
 ::before {
@@ -13,6 +7,12 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "valorantFont";
+  src: url("../police/valorant/valorant-font.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 img {
   width: 50px;
   height: 50px;
@@ -20,12 +20,12 @@ img {
 
 #navbarVertical {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 100vh;
-  width: 7.5vw;
-  background-color: rgb(73, 49, 190);
+  width: 5vw;
+  background-color: rgb(17, 15, 26);
 }
 #navbarVertical #logoValo {
   display: flex;
@@ -46,7 +46,27 @@ img {
   align-items: center;
   height: 10vh;
 }
-#navbarVertical #website {
+#navbarVertical #exit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.5vh;
+}
+#navbarVertical #espacement {
+  height: 2.5vh;
+}
+
+.valoDesign {
+  font-family: valorantFont;
+  color: rgb(54, 54, 54);
+}
+
+body {
+  background: rgb(44, 38, 49);
+  background: linear-gradient(85deg, rgb(44, 38, 49) 5%, rgb(53, 39, 51) 65%, rgb(29, 35, 47) 85%);
+}
+
+#website {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,18 +75,11 @@ img {
   flex-direction: column;
   align-items: flex-start;
 }
-#navbarVertical #website img {
-  width: 30px;
-  height: 30px;
+#website .icon {
+  height: 35px;
+  width: 35px;
 }
-#navbarVertical #exit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 12.5vh;
-}
-
-.valoDesign {
-  font-family: valorantFont;
-  color: rgb(54, 54, 54);
+#website .icon img {
+  width: 100%;
+  height: 100%;
 }

@@ -8,6 +8,13 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "valorantFont";
+  src: url("../police/valorant/valorant-font.ttf");
+  font-weight: normal;
+  font-style: normal;   
+}
+
 img {
   width: 50px;
   height: 50px;
@@ -17,12 +24,12 @@ img {
   @include center;
   flex-direction: column;
   height: 100vh;
-  width: 7.5vw;
-  background-color: rgb(73, 49, 190);
+  width: 5vw;
+  background-color: rgb(17, 15, 26);
 
   #logoValo {
     @include center;
-    height: 12.5vh;
+    height: 12.5vh; 
   }
 
   #valoDesign {
@@ -36,29 +43,40 @@ img {
     height: 10vh;
   }
 
-  #website {
-    @include center;
-    height: 30vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    img {
-      width: 30px;
-      height: 30px;
-    }
-  }
-
   #exit {
     @include center;
     height: 12.5vh;
   }
+
+  #espacement {
+    height: 2.5vh;
+  }
 }
 
+.valoDesign {
+  font-family: valorantFont;
+  color: rgb(54, 54, 54);
+}
 
-  .valoDesign {
-    font-family: valorantFont;
-    color: rgb(54,54,54)
+body {
+  background: rgb(44,38,49);
+  background: linear-gradient(85deg, rgba(44,38,49,1) 5%, rgba(53,39,51,1) 65%, rgba(29,35,47,1) 85%);
+}
 
+#website {
+  @include center;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .icon {
+    height: 35px;
+    width: 35px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
-
+}

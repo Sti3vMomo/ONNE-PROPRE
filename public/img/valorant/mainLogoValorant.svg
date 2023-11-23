@@ -7,14 +7,14 @@
   <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
   <g transform="matrix(1 0 0 1 540 540)" id="f4a60201-2962-4733-9169-a1251d5ba428">
     <rect
-      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1; visibility: hidden;"
+      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,81,82); fill-rule: nonzero; opacity: 1; visibility: hidden;"
       vector-effect="non-scaling-stroke" x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
   </g>
   <g transform="matrix(1 0 0 1 540 540)" id="c9b6c122-0be9-4de7-8941-aa4089af95d3">
   </g>
   <g transform="matrix(10.8 0 0 10.8 321.47 727.31)">
     <path
-      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,0,0); fill-rule: nonzero; opacity: 1;"
+      style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,81,82); fill-rule: nonzero; opacity: 1;"
       transform=" translate(-49.91, -50.18)"
       d="M 99.25 48.66 L 99.25 10.28 C 99.25 9.69 98.5 9.42 98.13 9.889999999999999 L 56.209999999999994 62.29 C 56.05857254497755 62.478242215419534 56.02876644204807 62.73673915239721 56.13337905344684 62.95450418020691 C 56.237991664845616 63.1722692080166 56.458411315276976 63.31055965563466 56.699999999999996 63.31 L 86.99 63.31 C 87.80999999999999 63.31 88.58 62.940000000000005 89.08999999999999 62.300000000000004 L 98.66 50.34 C 99.03999999999999 49.86000000000001 99.25 49.27 99.25 48.660000000000004 z M 1.17 50.34 L 32.66 89.7 C 33.169999999999995 90.34 33.94 90.71000000000001 34.76 90.71000000000001 L 65.05 90.71000000000001 C 65.58 90.71000000000001 65.86999999999999 90.10000000000001 65.53999999999999 89.69000000000001 L 1.7 9.89 C 1.33 9.43 0.5799999999999998 9.690000000000001 0.5799999999999998 10.280000000000001 L 0.5799999999999998 48.660000000000004 C 0.5799999999999998 49.27 0.7899999999999998 49.86000000000001 1.17 50.34 z"
       stroke-linecap="round" />
