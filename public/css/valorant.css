@@ -39,6 +39,7 @@ img {
   align-items: center;
   height: 10vh;
   transform: rotate(-90deg);
+  font-size: 80%;
 }
 #navbarVertical #tiret {
   display: flex;
@@ -67,13 +68,9 @@ body {
 }
 
 #website {
-  display: flex;
-  justify-content: center;
+  display: grid;
   align-items: center;
   height: 30vh;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 #website .icon {
   height: 35px;

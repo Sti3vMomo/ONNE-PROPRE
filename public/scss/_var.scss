@@ -9,4 +9,8 @@ $default : 0;
   align-items: center;
 }
 
+@mixin baseGrid {
+  display: grid;
+  align-items: center;
+}
 
